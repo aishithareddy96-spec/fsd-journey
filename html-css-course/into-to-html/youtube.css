@@ -1,0 +1,44 @@
+.thumbnail{
+    display:block;
+    width: 300px; /*if we change width height chages too*/
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.search-bar{
+    border-radius: 20px;
+    line-height: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    display: block;
+}
+
+.content-creator-profile{
+   display: inline-block;
+   width: 50px;
+   margin-bottom: 15px;
+}
+
+.thumbnail-head{
+    font-weight:bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.channel-name{
+    color: rgb(100, 100, 100);
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.view-count{
+    color: rgb(100, 100, 100);
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.video-card{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.content-info{
+    display: inline-block;
+}

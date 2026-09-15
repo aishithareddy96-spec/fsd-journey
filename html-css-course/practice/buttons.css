@@ -1,0 +1,71 @@
+.subscibe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity, 0.7s;
+  vertical-align: top;
+}
+
+.subscibe-button:hover                      /*learnt about hover, active and also transition*/ {
+  opacity: 0.8;
+}
+
+.subscibe-button:active {
+  opacity: 0.5;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(41, 118, 222);
+  border-style: solid;
+  color: rgb(41, 118, 246);
+  border-radius: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition:
+    background-color,
+    0.7s color,
+    1s;
+}
+
+.join-button:hover {
+  background-color: rgb(41, 118, 222);
+  color: white;
+}
+
+.tweet-button {
+  background-color: rgb(23, 101, 238);
+  color: white;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  transition: box-shadow, 0.5s;
+}
+.tweet-button:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+  /*side left bottom*/
+}
