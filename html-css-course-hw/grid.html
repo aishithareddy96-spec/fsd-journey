@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<style>
+        .gridclass1{
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+        .gridclass2
+        {
+            display: grid;
+            grid-template-columns: 50px 1fr 75px; /*Its fr for taking up space*/
+        }
+        .gridclass3
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-bottom: 10px;
+            margin-top: none;
+            border: none;
+        }
+    </style>
+</head> -->
+    <title>Grid</title>
+    <style>
+        .gridClass
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .profile
+        {
+            height: auto;
+            background-color: rgb(216, 181, 242);
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .userName
+        {
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .userpic
+        {
+            margin-left: 50px;
+            margin-top: 10px;
+            height:500px;
+            width: auto;
+        }
+        .info
+        {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+        .profilepic {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid black;
+            object-fit: cover; /* ensures the image fills the circle nicely */
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+        .followersCount
+        {
+            color: rgb(79, 79, 79);
+        }
+        .addfrd
+        {
+            font-size: 14px;
+            font-weight: bold;
+            background-color: rgb(31, 114, 208);
+            color: white;
+            border-radius: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-left: 50px;
+            margin-bottom: 10px;
+            border: none;
+            transition: box-shodow, 0.7s;
+        }
+        .addfrd:hover
+        {
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridClass">
+    <div class="profile">
+        <img class="userpic" src="src/pics/jkpic.jpeg" alt="userpic">
+        <p class="userName">Jeon Jungkook</p>
+        <div class="info">
+            <img class="profilepic" src="src/pics/jkprofile.jpeg" alt="profilepic1">
+            <p class="followersCount">25M</p>
+        </div>
+        <button class="addfrd">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="userpic" src="src/pics/vpic.jpeg" alt="userpic">
+        <p class="userName">Kim Taehyung</p>
+        <div class="info">
+            <img class="profilepic" src="src/pics/vprofile.jpeg" alt="profilepic1">
+            <p class="followersCount">30M</p>
+        </div>
+        <button class="addfrd">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="userpic" src="src/pics/jmpic.jpeg" alt="userpic">
+        <p class="userName">Park Jimin</p>
+        <div class="info">
+            <img class="profilepic" src="src/pics/jmprofile.jpeg" alt="profilepic1">
+            <p class="followersCount">35M</p>
+        </div>
+        <button class="addfrd">Add Friend</button>
+    </div>
+    </div>
+    
+    <!--<body>
+    <div class="gridclass1">
+        <p style="background-color: lightblue;">200px</p>
+        <p style="background-color: lightpink;">75px</p>
+    </div>
+    <div class="gridclass2">
+        <p style="background-color: lightblue;">col1</p>
+        <p style="background-color: lightpink;">col2</p>
+        <p style="background-color: lightgreen;">col3</p>
+    </div>
+    <div class="gridclass3">
+        <p style="background-color: lightblue; margin-right: 20px;">col1</p>
+        <p style="background-color: lightgreen; margin-right: 20px;">col2</p>
+        <p style="background-color: lightpink; margin-right: 20px;">col3</p>
+        <p style="background-color: lightsalmon; margin-right: 20px;">col4</p>
+    </div>
+    <div class="gridclass3">
+        <p style="background-color: lightblue; margin-right: 20px;">col1</p>
+        <p style="background-color: lightgreen; margin-right: 20px;">col2</p>
+        <p style="background-color: lightpink; margin-right: 20px;">col3</p>
+        <p style="background-color: lightsalmon; margin-right: 20px;">col4</p>
+    </div> --> 
+</body>
+</html>
